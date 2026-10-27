@@ -24,7 +24,7 @@ jobs:
         run: |
           cp lib/main.dart main.dart.bak
           cp pubspec.yaml pubspec.yaml.bak
-          flutter create . --org com.liner.music --platforms android
+          flutter create . --project-name liner_music --org com.liner.music --platforms android
           mv main.dart.bak lib/main.dart
           mv pubspec.yaml.bak pubspec.yaml
 
